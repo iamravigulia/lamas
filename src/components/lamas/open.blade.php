@@ -66,7 +66,7 @@
         </div>
         <div>
             <label class="fmt_label" for="">Question Spanish audio</label>
-            <input class="fmt_input" type="file" accept="audio/*" name="question_media_es" placeholder="Question" style="width: 100%;" required>
+            <input class="fmt_input" type="file" accept="audio/*" name="question_media_es" placeholder="Question" style="width: 100%;">
             {{-- <textarea class="border border-gray-400 p" name="" id="" cols="30" rows="10"></textarea> --}}
         </div>
         <div class="my-2" style="margin:20px 0;">
@@ -205,7 +205,7 @@
     </div>
     <div style="display:block; padding:10px;">
         <div style="font-size:12px;">Spanish audio</div>
-        <input style="display:block;" type="file" name="audio_es[]" multiple accept="audio/*" placeholder="audio es" required>
+        <input style="display:block;" type="file" name="audio_es[]" multiple accept="audio/*" placeholder="audio es">
     </div>
     <button type="submit" style="display: inline-block; margin:10px; padding:4px 20px; background:green; color:#fff; text-transform:uppercase; border-radius:4px;">submit</button>
 </form>
